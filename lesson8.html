@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://www.myserver.com" ; method="GET">
+        <table>
+            <tr>
+                <th colspan="2">
+                    <h1>Biểu Mẫu Đặt Hàng</h1>
+                </th>
+            </tr>
+            <tr>
+                <td><label for="sp">Sản phẩm:
+                <td><input type="text" id="sp" name="sp"></td>
+                </label></td>
+            </tr>
+            <tr>
+                <td><label for="quantity">Số lượng:
+                <td><input type="number" id="quantity" name="quantity"></td>
+                </label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h2>Thông Tin Liên Hệ:</h2>
+                </td>
+            </tr>
+        </table>
+        <label for="name">Tên:
+            <input type="text" id="name" name="name">
+        </label>
+        <br>
+        <label for="email">Email:
+            <input type="email" id="email" name="email">
+        </label>
+        <br>
+        <label for="address">Địa chỉ:
+            <textarea name="address" id="address" rows="4"></textarea>
+        </label>
+        <br>
+        <button>Đặt hàng</button>
+    </form>
+</body>
+
+</html>
